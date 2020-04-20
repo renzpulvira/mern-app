@@ -1,0 +1,42 @@
+.compo-header {
+  background: #141b31;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      right: -16px;
+      top: 50%;
+      transform: translateY(-50%) rotate(14deg);
+      width: 1px;
+      height: 61%;
+      background: #fff;
+    }
+
+    &:last-child {
+      margin-right: 0;
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+}

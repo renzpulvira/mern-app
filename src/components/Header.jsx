@@ -1,18 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <nav>
+    <nav className="compo-header">
       <div className="container">
         <ul>
+          {/* <li>
+            <Link to="/">Home</Link>
+          </li> */}
           <li>
-            <a href="#">Home</a>
+            <Link to="/login">Login</Link>
           </li>
           <li>
-            <a href="#">Login</a>
-          </li>
-          <li>
-            <a href="#">Register</a>
+            <Link to="/register">Register</Link>
           </li>
         </ul>
       </div>

@@ -22,6 +22,7 @@ html {
 
 body {
   margin: 0;
+  background: #182039;
 }
 
 /**
@@ -353,4 +354,14 @@ template {
 * {
   box-sizing: border-box;
   font-family: "Roboto";
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

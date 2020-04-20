@@ -1,0 +1,9 @@
+.compo-login {
+  height: calc(100vh - 40px);
+  display: flex;
+  align-items: center;
+
+  input[type="submit"] {
+    margin-top: 15px;
+  }
+}
